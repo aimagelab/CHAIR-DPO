@@ -1,11 +1,14 @@
 # Mitigating Hallucinations in Multimodal LLMs via Object-aware Preference Optimization [BMVC 2025]
 
 <p align="center">
-  <img src="assets/chair_dpo_pipeline.png" alt="CHAIR-DPO Pipeline" width="840" />
-</p> 
+<a href="https://www.arxiv.org/abs/2508.20181"><img alt="Paper" src="https://img.shields.io/badge/Paper-arxiv.2508.20181-B31B1B.svg"></a>
+</div>
 
-<!-- TODO: ADD ARXIV LINK -->
-This repository contains the reference code for the paper [Mitigating Hallucinations in Multimodal LLMs via Object-aware Preference Optimization](), **BMVC 2025**.
+<p align="center">
+  <img src="assets/chair_dpo_pipeline.png" alt="CHAIR-DPO Pipeline" width="840" />
+</p>
+
+This repository contains the reference code for the paper [Mitigating Hallucinations in Multimodal LLMs via Object-aware Preference Optimization](https://www.arxiv.org/abs/2508.20181), **BMVC 2025**.
 
 Please cite with the following BibTeX:
 ```bibtex
