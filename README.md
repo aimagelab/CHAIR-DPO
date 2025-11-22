@@ -2,6 +2,7 @@
 
 <p align="center">
 <a href="https://www.arxiv.org/abs/2508.20181"><img alt="Paper" src="https://img.shields.io/badge/Paper-arxiv.2508.20181-B31B1B.svg"></a>
+<a href="https://huggingface.co/collections/aimagelab/chair-dpo"><img alt="HuggingFace" src="https://img.shields.io/badge/Models%20and%20 Datasets-🤗%20CHAIR--DPO-blue"></a>
 </div>
 
 <p align="center">
