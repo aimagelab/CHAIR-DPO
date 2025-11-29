@@ -21,6 +21,10 @@ Please cite with the following BibTeX:
 }
 ```
 
+## 📢 Latest Updates
+- **[2025/11/29]** 📊 Released preference datasets and object detection annotations, available at the [CHAIR-DPO collection](https://huggingface.co/collections/aimagelab/chair-dpo)
+- **[2025/11/23]** 🚀 CHAIR-DPO fine-tuned models now available for download on [HuggingFace Hub](https://huggingface.co/collections/aimagelab/chair-dpo)
+
 ## Abstract
 Multimodal Large Language Models (MLLMs) emerge as a unified interface to address a multitude of tasks, ranging from NLP to computer vision. Despite showcasing state-of-the-art results in many benchmarks, a long-standing issue is the tendency of MLLMs to hallucinate, that is to generate answers to the user's query that are not reflected in the visual input. In this paper, we address the problem of hallucinations as an alignment problem, seeking to steer the MLLM so that it prefers generating content without hallucinations. In contrast to recent approaches that require complicated pipelines to build synthetic preference data for alignment training, often relying on proprietary models, we capitalize on the well-known CHAIR metric, originally proposed to gauge the degree of hallucinations in image captioning. Given a pair of generated answers, we leverage CHAIR to distinguish winner and loser options (i.e., non-hallucinated and hallucinated samples) and fine-tune off-the-shelf MLLMs via Direct Preference Optimization (DPO). The resulting method, which we refer to as CHAIR-DPO, effectively diminishes the amount of hallucinated answers on several hallucination benchmarks, demonstrating the effectiveness of fine-tuning the MLLM with a CHAIR-based reward.
 
