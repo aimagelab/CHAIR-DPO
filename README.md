@@ -60,6 +60,30 @@ Edit the following scripts with the correct checkpoints and data paths:
 ./scripts/dpo/train_multinode_llava_more.sh
 ```
 
+**Datasets**
+- **`detections.json`**  
+  Ground truth object detections for all images in the preference datasets, produced with [DETR-DC5-R101](https://huggingface.co/facebook/detr-resnet-101-dc5). Pass its path using the `--detections_path` argument in the training scripts.
+
+- **`preference_llava`**  
+  Preference data for training CHAIR-DPO-LLaVA-1.5-7B. The released model is trained only on the `filtered_` split. The unfiltered `train_split_preference` split is used for the ablations in Table 2 of the paper.
+
+- **`preference_llavamore`**  
+  Preference data for training CHAIR-DPO-LLaVA-MORE-8B. The released model is trained only on the `filtered_` split. The unfiltered `train_split_preference_more` split is used for the ablations in Table 2.
+
+
+```
+.
+├── detections.json
+├── preference_llava
+│   ├── eval_split_preference.json
+│   ├── filtered_train_split_preference.json
+│   └── train_split_preference.json
+└── preference_llavamore
+    ├── eval_split_preference_more.json
+    ├── filtered_train_split_preference_more.json
+    └── train_split_preference_more.json
+```
+
 ## Acknowledgements
 We acknowledge the use of the following open-source codebases: [LLaVA](github.com/haotian-liu/LLaVA), [LLaVA-MORE](https://github.com/aimagelab/LLaVA-MORE), [DiCO](https://github.com/aimagelab/DiCO) and [CHAIR-metric-standalone](https://github.com/Maxlinn/CHAIR-metric-standalone).
 
